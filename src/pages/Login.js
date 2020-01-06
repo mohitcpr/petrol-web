@@ -12,6 +12,7 @@ function Login(props) {
     console.log(res);
   }
   useEffect(() => {
+    alert(JSON.stringify(user));
     sessionStorage.clear();
     if (user) {
       sessionStorage.setItem("login", JSON.stringify(user));
