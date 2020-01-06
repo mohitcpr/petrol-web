@@ -17,7 +17,7 @@ function List() {
       }
     }
     getAllPList();
-  }, [user]);
+  }, []);
   return (
     <div>
       <div onClick={() => history.push("form")}>+</div>
